@@ -32,10 +32,10 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 ## Generate Package
 
-You can customize this pack via changing it in the `package.json` and use these instructions to generate a new one:
+You can customize this pack via forking and changing it in the `package.json` and use these instructions to generate a new one:
 > If you don't have [node.js](https://nodejs.org/en/), first download and install the latest version. then you have to install `vsce` via `npm install -g vsce`.
 
 1. `vsce package`
-2. 
+2. `vsce publish`
 
 **Enjoy!**
