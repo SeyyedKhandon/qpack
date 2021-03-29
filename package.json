@@ -1,8 +1,8 @@
 {
   "name": "qpack",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "SeyyedKhandon",
-  "author": "SeyyedMahdiHassanpour",
+  "author": "SeyyedMahdi Hassanpour",
   "displayName": "Web Quality/Metric Extension Pack (QPack)",
   "description": "Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code",
   "license": "MIT",
@@ -36,6 +36,7 @@
     "kisstkondoros.vscode-codemetrics",
     "SonarSource.sonarlint-vscode",
     "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
     "wix.vscode-import-cost"
   ]
 }
