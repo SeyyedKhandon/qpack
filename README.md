@@ -15,28 +15,27 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 ```json
 {
-    "cSpell.userWords": [],
-    "eslint.alwaysShowStatus": true,
-    "eslint.codeAction.showDocumentation": {
-      "enable": true
-    },
-    "eslint.lintTask.enable": true,
-    "errorLens.statusBarMessageEnabled": true,
-    "errorLens.scrollbarHackEnabled": true,
-    "errorLens.fontStyleItalic": true,
-    "errorLens.statusBarColorsEnabled": true,
-    "errorLens.addNumberOfDiagnostics": true,
-    "errorLens.addAnnotationTextPrefixes": true,
-    "errorLens.gutterIconsEnabled": true
+  "cSpell.userWords": [],
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.lintTask.enable": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.fontStyleItalic": true,
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.addNumberOfDiagnostics": true,
+  "errorLens.addAnnotationTextPrefixes": true,
+  "errorLens.gutterIconsEnabled": true
 }
 ```
 
 **Notes**:
--  To enable `Sonar lint`, you have to install `java runtime environment(jre)`, which it will ask to download it when it has been installed.
+
+- To enable `Sonar lint`, you have to install `java runtime environment(jre)`, which it will ask to download it when it has been installed.
 
 - You can use [Tech Debt Metrics](https://marketplace.visualstudio.com/items?itemName=Stepsize.tech-debt-tracker) as a complement to `CodeMetrics` metric checker(But it is heavy).
-
-
 
 ## Extensions Included
 
@@ -52,6 +51,10 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 - 6- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
+- 7- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
+
+- 8- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
+
 ## Relevant Links
 
 - [Github](https://github.com/SeyyedKhandon/qpack)
@@ -60,6 +63,7 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 ## Generate Package
 
 You can customize this pack via forking and changing it in the `package.json` and use these instructions to generate a new one:
+
 > If you don't have [node.js](https://nodejs.org/en/), first download and install the latest version. then you have to install `vsce` via `npm install -g vsce`.
 
 1. `vsce package`
