@@ -1,6 +1,6 @@
 {
   "name": "qpack",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Web Quality/Metric Extension Pack (QPack)",
@@ -37,8 +37,6 @@
     "SonarSource.sonarlint-vscode",
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens",
-    "wix.vscode-import-cost",
-    "aaron-bond.better-comments",
-    "CoenraadS.bracket-pair-colorizer-2"
+    "wix.vscode-import-cost"
   ]
 }

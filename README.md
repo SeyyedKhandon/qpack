@@ -51,9 +51,6 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 - 6- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
-- 7- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
-
-- 8- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
 
 ## Relevant Links
 
