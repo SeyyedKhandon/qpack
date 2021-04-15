@@ -27,7 +27,8 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.addNumberOfDiagnostics": true,
   "errorLens.addAnnotationTextPrefixes": true,
-  "errorLens.gutterIconsEnabled": true
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.followCursor": "closestProblem"
 }
 ```
 
