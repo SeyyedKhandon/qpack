@@ -1,16 +1,16 @@
 {
   "name": "qpack",
-  "version": "0.4.2",
+  "version": "1.0.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
-  "displayName": "Web Quality/Metric Extension Pack (QPack)",
+  "displayName": "Quality/Metric Extension Pack (QPack)",
   "description": "Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code",
   "license": "MIT",
   "galleryBanner": {
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "logo.jpg",
+  "icon": "qpack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/qpack.git"
   },
@@ -23,13 +23,37 @@
     "developer experience",
     "Quality/Metric Extension Pack",
     "Check Metric",
-    "extension pack"
+    "ESlint",
+    "Code Metrics",
+    "Code Spell Checker",
+    "Error Lens",
+    "Import Cost"
   ],
   "categories": [
     "Extension Packs"
   ],
   "engines": {
-    "vscode": "^1.54.3"
+    "vscode": "^1.55.0"
+  },
+  "activationEvents": [
+    "onCommand:qpack.updateConfig"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "qpack.updateConfig",
+        "title": "Update Quality/Metric Extension Pack (QPack) Config"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
   },
   "extensionPack": [
     "dbaeumer.vscode-eslint",
@@ -38,5 +62,18 @@
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens",
     "wix.vscode-import-cost"
-  ]
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.55.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
 }

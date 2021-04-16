@@ -1,4 +1,4 @@
-# Web Quality/Metric Extension Pack (QPack)
+# Quality/Metric Extension Pack (QPack)
 
 ### QPack
 
@@ -6,12 +6,11 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 > These are some of my favorite extensions which helped me to keep to check the quality of my code.
 
-### Pre-defined settings which you maybe want to use:
+### 1-Click Setup:
 
-1. press `ctrl+shift+p`
-2. type `settings`
-3. click on `Preferences: Open settings (JSON)` to open your settings.json file
-4. add these lines to the end of JSON Settings:
+1. Press `ctrl+shift+p`
+2. Type `qpack` or `update config`
+3. Click on `Update Quality/Metric Extension Pack (QPack) Config` to automatically add below configs to your `settings.json` file
 
 ```json
 {
