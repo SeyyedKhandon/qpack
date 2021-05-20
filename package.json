@@ -1,6 +1,6 @@
 {
   "name": "qpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Quality/Metric Extension Pack (QPack)",
@@ -10,7 +10,7 @@
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "qpack.jpg",
+  "icon": "assets/qpack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/qpack.git"
   },
