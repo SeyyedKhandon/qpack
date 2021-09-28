@@ -9,12 +9,4 @@ export const defaultSettings = [
     },
   },
   { "eslint.lintTask.enable": true },
-  { "errorLens.statusBarMessageEnabled": true },
-  { "errorLens.scrollbarHackEnabled": true },
-  { "errorLens.fontStyleItalic": true },
-  { "errorLens.statusBarColorsEnabled": true },
-  { "errorLens.addNumberOfDiagnostics": true },
-  { "errorLens.addAnnotationTextPrefixes": true },
-  { "errorLens.gutterIconsEnabled": true },
-  { "errorLens.followCursor": "closestProblem" },
 ] as GeneralObject[];

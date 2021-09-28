@@ -27,15 +27,7 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.lintTask.enable": true,
-  "errorLens.statusBarMessageEnabled": true,
-  "errorLens.scrollbarHackEnabled": true,
-  "errorLens.fontStyleItalic": true,
-  "errorLens.statusBarColorsEnabled": true,
-  "errorLens.addNumberOfDiagnostics": true,
-  "errorLens.addAnnotationTextPrefixes": true,
-  "errorLens.gutterIconsEnabled": true,
-  "errorLens.followCursor": "closestProblem"
+  "eslint.lintTask.enable": true
 }
 ```
 
@@ -57,9 +49,7 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 - 4- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code
 
-- 5- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
-
-- 6- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
+- 5- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
 ## Recommended Extension pack
 

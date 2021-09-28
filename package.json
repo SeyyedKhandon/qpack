@@ -1,6 +1,6 @@
 {
   "name": "qpack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Quality/Metric Extension Pack (QPack)",
@@ -60,7 +60,6 @@
     "kisstkondoros.vscode-codemetrics",
     "SonarSource.sonarlint-vscode",
     "streetsidesoftware.code-spell-checker",
-    "usernamehw.errorlens",
     "wix.vscode-import-cost"
   ],
   "devDependencies": {

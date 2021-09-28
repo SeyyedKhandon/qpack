@@ -1,5 +1,5 @@
 export interface GeneralObject {
-  [index: string]: string;
+  [index: string]: string | number | boolean;
 }
 export const extractAsKeyValue = (object: GeneralObject) => ({
   key: Object.keys(object)[0],
