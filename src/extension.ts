@@ -1,28 +1,27 @@
 import * as vscode from "vscode";
-import { extractAsKeyValue, GeneralObject } from "./util";
-import { defaultSettings } from "./defaultSettings";
+import {
+  extensionActivation,
+  extensionDeactivation,
+  firstTimeActivation,
+} from "./util";
 
-const updateUserSettings = async (settings: GeneralObject[]) => {
-  settings.forEach(async (setting) => {
-    const { key, value } = extractAsKeyValue(setting);
-    await vscode.workspace
-      .getConfiguration()
-      .update(key, value, vscode.ConfigurationTarget.Global);
-  });
-};
 export async function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "Quality Pack" is now active!');
-  let disposable = vscode.commands.registerCommand(
-    "qpack.updateConfig",
-    async () => {
-      console.log(JSON.stringify(defaultSettings, null, 1));
-      await updateUserSettings(defaultSettings);
-      await vscode.window.showInformationMessage(
-        "Quality Pack Config has been updated"
-      );
-    }
+  console.log(
+    `Congratulations, your extension "${context.extension.packageJSON.displayName}" installed!`
   );
-  context.subscriptions.push(disposable);
+  firstTimeActivation(context);
+
+  const activateCommand = vscode.commands.registerCommand(
+    "qpack.activate",
+    () => extensionActivation(context)
+  );
+  const deactivateCommand = vscode.commands.registerCommand(
+    "qpack.deactivate",
+    () => extensionDeactivation(context)
+  );
+  context.subscriptions.push(activateCommand, deactivateCommand);
 }
 
-export function deactivate() {}
+export function deactivate(context: vscode.ExtensionContext) {
+  extensionDeactivation(context);
+}

@@ -8,16 +8,16 @@
 
 Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
-> These are some of my favorite extensions which helped me to keep to check the quality of my code.
+### Available Commands
 
-### 1-Click Setup:
+- `Activate Quality/Metric Extension Pack (QPack) Config`
+- `Deactivate Quality/Metric Extension Pack (QPack) Config`
 
-1. Press `ctrl+shift+p`
-2. Type `qpack` or `update config`
-3. Click on `Update Quality/Metric Extension Pack (QPack) Config` to automatically add below configs to your `settings.json` file
+**Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type the command .e.g. `activate qpack` then select it.
+
 <details>
 <summary>
-<i>Click to see what configs this plugin will use</i>
+<i>Here are the configurations this plugin will set for you</i>
 </summary>
 
 ```json
@@ -30,17 +30,12 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
   "codemetrics.nodeconfiguration.ReturnStatement": 0.1,
   "codemetrics.nodeconfiguration.SwitchStatement": 0.1,
   "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.1,
-  "codemetrics.nodeconfiguration.JsxElement": 0.2
+  "codemetrics.nodeconfiguration.JsxElement": 0.2,
+  "codemetrics.basics.CodeLensHiddenUnder": 4
 }
 ```
 
 </details>
-
-**Notes**:
-
-- To enable `Sonar lint`, you have to install `java runtime environment(jre)`, which it will ask to download it when it has been installed.
-
-- You can use [Tech Debt Metrics](https://marketplace.visualstudio.com/items?itemName=Stepsize.tech-debt-tracker) as a complement to `CodeMetrics` metric checker(But it is heavy).
 
 ## Extensions Included
 
@@ -53,6 +48,12 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 - 4- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code
 
 - 5- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
+
+**Notes**:
+
+- To enable `Sonar lint`, you have to install `java runtime environment(jre)`, which it will ask to download it when it has been installed.
+
+- You can use [Tech Debt Metrics](https://marketplace.visualstudio.com/items?itemName=Stepsize.tech-debt-tracker) as a complement to `CodeMetrics` metric checker(But it is too heavy!).
 
 ## Recommended Extension pack
 
