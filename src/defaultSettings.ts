@@ -13,4 +13,5 @@ export const defaultSettings = {
   "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.1,
   "codemetrics.nodeconfiguration.JsxElement": 0.2,
   "codemetrics.basics.CodeLensHiddenUnder": 4,
+  "sonarlint.disableTelemetry": true,
 };

@@ -31,7 +31,8 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
   "codemetrics.nodeconfiguration.SwitchStatement": 0.1,
   "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.1,
   "codemetrics.nodeconfiguration.JsxElement": 0.2,
-  "codemetrics.basics.CodeLensHiddenUnder": 4
+  "codemetrics.basics.CodeLensHiddenUnder": 4,
+  "sonarlint.disableTelemetry": true
 }
 ```
 

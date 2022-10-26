@@ -1,6 +1,6 @@
 {
   "name": "qpack",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Quality/Metric Extension Pack (QPack)",
@@ -26,7 +26,9 @@
     "ESlint",
     "Code Metrics",
     "Code Spell Checker",
-    "Error Lens",
+    "SonarSource",
+    "SonarQube",
+    "SonarLint",
     "Import Cost"
   ],
   "categories": [
