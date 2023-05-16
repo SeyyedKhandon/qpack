@@ -48,7 +48,6 @@ Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
 - 4- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code
 
-- 5- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
 **Notes**:
 

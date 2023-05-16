@@ -1,6 +1,6 @@
 {
   "name": "qpack",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Quality/Metric Extension Pack (QPack)",
@@ -28,8 +28,7 @@
     "Code Spell Checker",
     "SonarSource",
     "SonarQube",
-    "SonarLint",
-    "Import Cost"
+    "SonarLint"
   ],
   "categories": [
     "Extension Packs"
@@ -65,8 +64,7 @@
     "dbaeumer.vscode-eslint",
     "kisstkondoros.vscode-codemetrics",
     "SonarSource.sonarlint-vscode",
-    "streetsidesoftware.code-spell-checker",
-    "wix.vscode-import-cost"
+    "streetsidesoftware.code-spell-checker"
   ],
   "devDependencies": {
     "@types/vscode": "^1.55.0",
